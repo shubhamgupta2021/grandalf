@@ -1,0 +1,18 @@
+Source: grandalf
+Section: python 
+Priority: normal
+Maintainer: Shubham Gupta <shubham.gupta2021@gmail.com>
+Build-Depends: debhelper (>= 9),
+		python,
+		python-setuptools,
+		python-dev
+Standards-Version: 3.9.5
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/grandalf.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/grandalf.git;a=summary
+
+Package: python-grandalf
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, python(>= 2.7), python-ply, python-numpy
+Description: Grandalf is a python package made for experimentations with graphs and drawing algorithms.  
+
